@@ -1,12 +1,72 @@
+/* عام الحرف اليدوية — أوزان كاملة */
+
 @font-face {
   font-family: "theyearofhandicrafts";
-  src: url(TheYearofHandicraftsTTF-Med.ttf) format("truetype");
-  font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-weight: 400; /* Regular */
+  src: url(TheYearofHandicraftsTTF-Reg.ttf) format("truetype");
+  font-display: auto;
 }
 
-/* فرض الخط على جميع النصوص مؤقتاً */
-html, body, * {
-  font-family: "theyearofhandicrafts", sans-serif !important;
+@font-face {
+  font-family: "theyearofhandicrafts";
+  font-style: normal;
+  font-weight: 500; /* Medium */
+  src: url(TheYearofHandicraftsTTF-Med.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "theyearofhandicrafts";
+  font-style: normal;
+  font-weight: 600; /* SemiBold */
+  src: url(TheYearofHandicraftsTTF-SemBd.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "theyearofhandicrafts";
+  font-style: normal;
+  font-weight: 700; /* Bold */
+  src: url(TheYearofHandicraftsTTF-Bold.ttf) format("truetype");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "theyearofhandicrafts";
+  font-style: normal;
+  font-weight: 900; /* Black */
+  src: url(TheYearofHandicraftsTTF-Black.ttf) format("truetype");
+  font-display: auto;
+}
+
+/* أمثلة لربط الأوزان بالعناصر */
+body, p, li {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 500;
+}
+
+strong, b {
+  font-family: "theyearofhandicrafts", sans-serif;
+  font-weight: 700;
 }
