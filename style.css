@@ -6,7 +6,7 @@
   font-display: swap;
 }
 
-/* فرض الخط على كل النصوص مؤقتاً */
 html, body, * {
   font-family: "theyearofhandicrafts", sans-serif !important;
+  font-variant-ligatures: none;
 }
