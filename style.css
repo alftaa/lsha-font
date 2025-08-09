@@ -1,1 +1,12 @@
-html, body, * { letter-spacing: 1px !important; }
+@font-face{
+  font-family: "TheYearOfHandicrafts";
+  src: url("TheYearOfHandicrafts-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فرض الخط على كل العناصر */
+html, body, * {
+  font-family: "TheYearOfHandicrafts", Arial, sans-serif !important;
+}
