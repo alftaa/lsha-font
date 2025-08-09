@@ -1,9 +1,1 @@
-@font-face {
-  font-family: "TheYearOfHandicrafts";
-  src: url("TheYearOfHandicrafts-Regular.otf") format("opentype");
-  font-weight: normal;
-}
-
-html, body, * {
-  font-family: "TheYearOfHandicrafts", sans-serif !important;
-}
+html, body, * { letter-spacing: 1px !important; }
