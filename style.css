@@ -40,33 +40,38 @@
   font-display: auto;
 }
 
-/* أمثلة لربط الأوزان بالعناصر */
 body, p, li {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 400;
+  font-size: 18px; /* حجم أكبر للفقرات */
 }
 
 h1 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 900;
+  font-size: 36px; /* أكبر عنوان */
 }
 
 h2 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
+  font-size: 30px;
 }
 
 h3 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 600;
+  font-size: 26px;
 }
 
 h4 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 500;
+  font-size: 22px;
 }
 
 strong, b {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
+  font-size: 18px;
 }
