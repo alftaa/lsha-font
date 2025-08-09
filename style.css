@@ -1,20 +1,12 @@
 @font-face {
-  font-family: "theyearofhandicrafts";
+  font-family: "baloobhaijaan";
+  src: url(BalooBhaijaan2-VariableFont_wght.ttf) format("truetype");
+  font-weight: 100 900; /* لأنه Variable Font */
   font-style: normal;
-  font-weight: 400;
-  src: url(TheYearOfHandicrafts-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
-@font-face {
-  font-family: "theyearofhandicrafts";
-  font-style: normal;
-  font-weight: 700;
-  src: url(TheYearOfHandicrafts-Bold.ttf) format("truetype");
-  font-display: swap;
-}
-
-/* لا تفرض محاذاة وسط المتجر كله */
-body {
-  font-family: "theyearofhandicrafts", sans-serif;
+/* فرض الخط مؤقتًا على كل النصوص */
+html, body, * {
+  font-family: "baloobhaijaan", sans-serif !important;
 }
