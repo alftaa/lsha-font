@@ -44,40 +44,40 @@ body, p, li {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 2; /* المسافة بين السطور */
+  line-height: 2.2; /* المسافة بين السطور */
 }
 
 h1 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 900;
   font-size: 48px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 h2 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 h3 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 600;
   font-size: 34px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 h4 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 500;
   font-size: 28px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 strong, b {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
