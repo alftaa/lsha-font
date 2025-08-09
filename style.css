@@ -43,35 +43,35 @@
 body, p, li {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 400;
-  font-size: 18px; /* حجم أكبر للفقرات */
+  font-size: 22px; /* فقرات واضحة وكبيرة */
 }
 
 h1 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 900;
-  font-size: 36px; /* أكبر عنوان */
+  font-size: 48px; /* عنوان رئيسي ضخم */
 }
 
 h2 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px; /* عنوان فرعي كبير */
 }
 
 h3 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 34px;
 }
 
 h4 {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 strong, b {
   font-family: "theyearofhandicrafts", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
 }
